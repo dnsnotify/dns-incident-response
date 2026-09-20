@@ -4,6 +4,8 @@
 
 A client's call should not be the first alert that their website is down or their email stopped arriving. This repository is maintained by **DNS Notify**, a commercial hosted monitoring service for teams that want outside-in DNS, SSL certificate and domain-expiry alerts without giving a monitoring vendor access to their DNS provider account.
 
+DNS Notify is intentionally focused: no AI analysis, speculative lookalike-domain warnings or unrelated modules. It watches the public infrastructure selected by the operator, stays quiet, and reports meaningful state changes. That gives MSPs and agencies visibility even when another supplier owns the repair.
+
 - Product: [DNS Notify](https://dnsnotify.com/)
 - Free DNS scanner: [scan a domain without an account](https://dnsnotify.com/dns-scanner/)
 - Free authoritative DNS lookup: [query authoritative DNS](https://dnsnotify.com/authoritative-dns-lookup/)
