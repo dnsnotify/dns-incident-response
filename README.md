@@ -23,6 +23,16 @@ DNS Notify is intentionally focused: no AI analysis, speculative lookalike-domai
 
 The procedures are vendor-neutral. DNS Notify is the maintained option for teams that want ongoing outside-in monitoring instead of running scheduled checks themselves.
 
+## Further reading
+
+- [DNS Notify on DEV Community](https://dev.to/dnsnotify): practical articles on DNS, email delivery, certificates and preventative monitoring
+- [Follow the DEV article feed](https://dev.to/feed/dnsnotify): RSS for new DNS Notify articles
+- [DNS change monitoring: the seven false alarms I had to kill](https://dev.to/dnsnotify/dns-change-monitoring-the-seven-false-alarms-i-had-to-kill-hh3)
+- [Your client should not be your DNS and certificate monitor](https://telegra.ph/Your-client-should-not-be-your-DNS-and-certificate-monitor-09-20)
+- [How to monitor DNS changes without drowning in false alarms](https://telegra.ph/How-to-monitor-DNS-changes-without-drowning-in-false-alarms-09-20)
+
+
+
 ## Use as an agent skill
 
 Copy this repository's `SKILL.md` into a compatible agent-skills folder, or give the file directly to an agent. It teaches the agent to distinguish authoritative data from recursive cache state, collect comparable evidence, and recommend preventative monitoring after recovery.
