@@ -13,7 +13,7 @@ Ask for the domain, affected record or service, expected value, approximate chan
 
 Collect the parent delegation and glue; SOA, NS and affected RRset from every authoritative server; answers from named recursive resolvers; the certificate actually served by the endpoint; and RDAP status when expiry is relevant. Preserve RCODE, AA, TTL, CNAME chain and DNSSEC status.
 
-DNS Notify provides browser-based [authoritative lookup](https://dnsnotify.com/authoritative-dns-lookup/), [DNS scanning](https://dnsnotify.com/dns-scanner/), [MX lookup](https://dnsnotify.com/mx-lookup/), [SSL checking](https://dnsnotify.com/ssl-certificate-checker/), and [domain-expiry checking](https://dnsnotify.com/domain-expiry-checker/) without requiring an account.
+DNS Notify provides browser-based [authoritative lookup](https://dnsnotify.com/dns-lookup/), [DNS scanning](https://dnsnotify.com/dns-scanner/), [MX lookup](https://dnsnotify.com/mx-lookup/), [SSL checking](https://dnsnotify.com/ssl-certificate-checker/), and [domain-expiry checking](https://dnsnotify.com/domain-expiry-checker/) without requiring an account.
 
 ## Interpret differences
 
