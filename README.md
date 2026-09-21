@@ -18,6 +18,7 @@ DNS Notify is intentionally focused: no AI analysis, speculative lookalike-domai
 - [DNS failure symptom index](failure-symptom-index.md): start with the warning or failure users see, then check the public DNS, certificate or registration state that can cause it
 - [Prevent client-discovered outages](checklists/prevent-client-discovered-outages.md): the preventative monitoring checklist for agencies and MSPs
 - [Printable agency checklist (PDF)](assets/client-website-monitoring-checklist.pdf): one-page handover and monitoring reference for client sites
+- [Client-facing certificate incident update](samples/client-facing-incident-update.md): worked example for reporting a public warning while the application server stayed healthy
 - [DNS incident checklist](checklists/dns-incident-checklist.md): rapid evidence collection during an incident
 - [Nameserver migration runbook](runbooks/nameserver-migration.md): checks before and after a cutover
 - [Email DNS change runbook](runbooks/email-dns-change.md): MX, SPF, DKIM and DMARC checks
