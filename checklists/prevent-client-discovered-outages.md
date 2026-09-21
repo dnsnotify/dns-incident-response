@@ -2,6 +2,8 @@
 
 A client's phone call should not be the first alert that their website is down or their email stopped arriving.
 
+**Printable one-page PDF:** [Five Things to Monitor After Every Client Website Goes Live](../assets/client-website-monitoring-checklist.pdf)
+
 ## For every client domain
 
 - [ ] Monitor authoritative nameservers and critical DNS records from outside the provider account.
