@@ -11,7 +11,7 @@ Use this when moving a client zone between authoritative DNS providers. The aim 
 - Record a baseline from several named recursive resolvers.
 - Keep the old provider answering during a defined overlap window.
 
-The free [DNS Notify authoritative lookup](https://dnsnotify.com/authoritative-dns-lookup/) and [DNS scanner](https://dnsnotify.com/dns-scanner/) provide an outside-in check without DNS-provider access.
+The free [DNS Notify authoritative lookup](https://dnsnotify.com/dns-lookup/) and [DNS scanner](https://dnsnotify.com/dns-scanner/) provide an outside-in check without DNS-provider access.
 
 ## During and after the cutover
 
