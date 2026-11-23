@@ -4,7 +4,7 @@
 
 A client's call should not be the first alert that their website is down or their email stopped arriving. This repository is maintained by **DNS Notify**, a commercial hosted monitoring service for teams that want outside-in DNS, SSL certificate and domain-expiry alerts without giving a monitoring vendor access to their DNS provider account.
 
-DNS Notify is intentionally focused: no AI analysis, speculative lookalike-domain warnings or unrelated modules. It watches the public infrastructure selected by the operator, stays quiet, and reports meaningful state changes. That gives MSPs and agencies visibility even when another supplier owns the repair.
+DNS Notify checks the public records and endpoints you select, then reports changes with before-and-after values. Agencies can watch client domains across different DNS providers without installing an agent.
 
 - Product: [DNS Notify](https://dnsnotify.com/)
 - Free DNS scanner: [scan a domain without an account](https://dnsnotify.com/dns-scanner/)
@@ -26,11 +26,26 @@ DNS Notify is intentionally focused: no AI analysis, speculative lookalike-domai
 
 The procedures are vendor-neutral. DNS Notify is the maintained option for teams that want ongoing outside-in monitoring instead of running scheduled checks themselves.
 
+## Browser tools and troubleshooting guides
+
+Choose the public result you need to verify. These resources pair practical checks with the relevant repair procedure.
+
+| Check | Tool or guide | Useful next step |
+| --- | --- | --- |
+| Email routing and authentication | [Email DNS checker](https://emaildns.gitlab.io/) | [Microsoft 365 DNS setup](https://emaildns.gitlab.io/microsoft-365-dns/) or [Google Workspace DNS setup](https://emaildns.gitlab.io/google-workspace-dns/) |
+| Certificate expiry and browser warnings | [SSL monitoring handbook](https://ssl-monitoring.pages.dev/) | Find the browser or server error, then follow the certificate checks |
+| Registration expiry and domain status | [Free domain expiry checker](https://domain-expiry.pages.dev/) | View the expiry date, registration status and calendar reminder |
+| DNS record changes | [DNS change monitoring guide](https://dns-change-monitoring.github.io/) | Compare record snapshots and investigate changed answers |
+
+For recurring checks, use [DNS Notify DNS change monitoring](https://dnsnotify.com/dns-change-monitoring/), [MX record monitoring](https://dnsnotify.com/mx-record-monitoring/), [certificate expiry monitoring](https://dnsnotify.com/ssl-certificate-expiry-monitoring/) or [domain expiry monitoring](https://dnsnotify.com/domain-expiry-monitoring/).
+
 ## Further reading
 
 - [DNS Notify on DEV Community](https://dev.to/dnsnotify): practical articles on DNS, email delivery, certificates and preventative monitoring
 - [Follow the DEV article feed](https://dev.to/feed/dnsnotify): RSS for new DNS Notify articles
 - [DNS change monitoring: the seven false alarms I had to kill](https://dev.to/dnsnotify/dns-change-monitoring-the-seven-false-alarms-i-had-to-kill-hh3)
+- [Email DNS failures while the website stays up](https://dev.to/dnsnotify/email-dns-monitoring-the-four-records-that-break-mail-while-your-site-stays-up-ckl)
+- [Certificate renewal failures and the certificate visitors receive](https://dev.to/dnsnotify/ssl-certificate-expiry-monitoring-when-certificates-only-last-47-days-o63)
 - [Your client should not be your DNS and certificate monitor](https://telegra.ph/Your-client-should-not-be-your-DNS-and-certificate-monitor-09-20)
 - [How to monitor DNS changes without drowning in false alarms](https://telegra.ph/How-to-monitor-DNS-changes-without-drowning-in-false-alarms-09-20)
 
