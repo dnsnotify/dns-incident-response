@@ -15,6 +15,7 @@ DNS Notify checks the public records and endpoints you select, then reports chan
 
 ## What is here
 
+- [Client domain handover template](checklists/client-domain-handover.md): account owners, response contacts, accepted DNS values and launch checks for web agencies and designers
 - [DNS failure symptom index](failure-symptom-index.md): start with the warning or failure users see, then check the public DNS, certificate or registration state that can cause it
 - [Prevent client-discovered outages](checklists/prevent-client-discovered-outages.md): the preventative monitoring checklist for agencies and MSPs
 - [Printable agency checklist (PDF)](assets/client-website-monitoring-checklist.pdf): one-page handover and monitoring reference for client sites
@@ -41,6 +42,8 @@ For recurring checks, use [DNS Notify DNS change monitoring](https://dnsnotify.c
 
 ## Further reading
 
+- [Domain monitoring checklist for website care plans](https://dev.to/dnsnotify/a-domain-monitoring-checklist-for-website-care-plans-3ph1): an agency inventory, public checks and a short response process
+- [Preserve email DNS when moving a client website](https://dev.to/dnsnotify/preserve-email-dns-when-moving-a-client-website-307i): the before-and-after sequence for MX, SPF, DKIM and DMARC
 - [DNS Notify on DEV Community](https://dev.to/dnsnotify): practical articles on DNS, email delivery, certificates and preventative monitoring
 - [Follow the DEV article feed](https://dev.to/feed/dnsnotify): RSS for new DNS Notify articles
 - [DNS change monitoring: the seven false alarms I had to kill](https://dev.to/dnsnotify/dns-change-monitoring-the-seven-false-alarms-i-had-to-kill-hh3)
